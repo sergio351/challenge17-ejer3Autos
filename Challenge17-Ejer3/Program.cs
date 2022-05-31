@@ -1,6 +1,7 @@
 using Challenge17_Ejer3.Data;
 using Challenge17_Ejer3.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 //ConexionSql
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbContext>(options => {
@@ -8,6 +9,13 @@ builder.Services.AddDbContext<ApplicationDbContext>(options => {
 });
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "MiApi", Version = "v1" });
+    var xmlfile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlpath = Path.Combine(AppContext.BaseDirectory, xmlfile);
+    options.IncludeXmlComments(xmlpath);
+});
 // Add services to the container.
 
 builder.Services.AddControllers();

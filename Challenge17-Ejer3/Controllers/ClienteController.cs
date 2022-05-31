@@ -15,14 +15,21 @@ namespace Challenge17_Ejer3.Controllers
         {
             _context = context;
         }
-
+        /// <summary>
+        /// Mostrar todos los clientes
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
         public ActionResult<IEnumerable<Cliente>> Get()
         {
             var entidad = _context.ClienteRepo.GetAll();
             return  Ok(entidad);
         }
-
+        /// <summary>
+        /// Crear nuevo cliente
+        /// </summary>
+        /// <param name="cliente"></param>
+        /// <returns></returns>
         [HttpPost]
         public ActionResult Post([FromBody] Cliente cliente)
         {
@@ -31,7 +38,12 @@ namespace Challenge17_Ejer3.Controllers
             return Ok();
         }
 
-
+        /// <summary>
+        /// Modificar cliente
+        /// </summary>
+        /// <param name="cliente"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpPut("{id}")]
         public ActionResult Put([FromBody] Cliente cliente, int id)
         {
@@ -46,7 +58,11 @@ namespace Challenge17_Ejer3.Controllers
                 return BadRequest();
             }
         }
-
+        /// <summary>
+        /// Eliminar cliente
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
         [HttpDelete("{id}")]
         public ActionResult Delete(int id)
         {

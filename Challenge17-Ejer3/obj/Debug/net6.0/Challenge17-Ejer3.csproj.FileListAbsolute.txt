@@ -63,3 +63,5 @@ C:\Users\Gian\source\repos\Challenge17-Ejer3\Challenge17-Ejer3\obj\Debug\net6.0\
 C:\Users\Gian\source\repos\Challenge17-Ejer3\Challenge17-Ejer3\obj\Debug\net6.0\Challenge17-Ejer3.pdb
 C:\Users\Gian\source\repos\Challenge17-Ejer3\Challenge17-Ejer3\obj\Debug\net6.0\Challenge17-Ejer3.genruntimeconfig.cache
 C:\Users\Gian\source\repos\Challenge17-Ejer3\Challenge17-Ejer3\obj\Debug\net6.0\ref\Challenge17-Ejer3.dll
+C:\Users\Gian\source\repos\Challenge17-Ejer3\Challenge17-Ejer3\bin\Debug\net6.0\Challenge17-Ejer3.xml
+C:\Users\Gian\source\repos\Challenge17-Ejer3\Challenge17-Ejer3\obj\Debug\net6.0\Challenge17-Ejer3.xml

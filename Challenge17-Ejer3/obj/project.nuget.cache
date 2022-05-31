@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "2IkRkQSYRNQ4AwU9CzUNzWGgvxUqt562W6cvKl0lGRvfNuo6oG6Jqw7yra7e5laVzVjWrHxpsaXCqhPUqSZanw==",
+  "dgSpecHash": "TSCTvkiaSAWImjQoKbNqTnyUgxKcO1JJUnLh8U/wCBQmLAAu6OzByX6EM+5OVlAtVb3E0pjUpQTGnNGFrX+y6g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gian\\source\\repos\\Challenge17-Ejer3\\Challenge17-Ejer3\\Challenge17-Ejer3.csproj",
   "expectedPackageFiles": [
@@ -39,10 +39,10 @@
     "C:\\Users\\Gian\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
     "C:\\Users\\Gian\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\Gian\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
-    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
-    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
-    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore\\6.3.1\\swashbuckle.aspnetcore.6.3.1.nupkg.sha512",
+    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.3.1\\swashbuckle.aspnetcore.swagger.6.3.1.nupkg.sha512",
+    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.3.1\\swashbuckle.aspnetcore.swaggergen.6.3.1.nupkg.sha512",
+    "C:\\Users\\Gian\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.3.1\\swashbuckle.aspnetcore.swaggerui.6.3.1.nupkg.sha512",
     "C:\\Users\\Gian\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\Gian\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\Gian\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

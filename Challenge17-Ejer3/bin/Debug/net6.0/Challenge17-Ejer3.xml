@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Challenge17-Ejer3</name>
+    </assembly>
+    <members>
+        <member name="M:Challenge17_Ejer3.Controllers.ClienteController.Get">
+            <summary>
+            Mostrar todos los clientes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge17_Ejer3.Controllers.ClienteController.Post(Challenge17_Ejer3.Entity.Cliente)">
+            <summary>
+            Crear nuevo cliente
+            </summary>
+            <param name="cliente"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge17_Ejer3.Controllers.ClienteController.Put(Challenge17_Ejer3.Entity.Cliente,System.Int32)">
+            <summary>
+            Modificar cliente
+            </summary>
+            <param name="cliente"></param>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Challenge17_Ejer3.Controllers.ClienteController.Delete(System.Int32)">
+            <summary>
+            Eliminar cliente
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

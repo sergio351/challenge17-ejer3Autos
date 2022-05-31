@@ -5,6 +5,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Challenge17_Ejer3</RootNamespace>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>
@@ -15,7 +16,8 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.1" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="6.3.1" />
   </ItemGroup>
 
   <ItemGroup>
